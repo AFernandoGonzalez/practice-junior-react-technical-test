@@ -21,7 +21,7 @@ export const UserList = () => {
             setUsers(data)
         })
         .catch(error=> setError(error.message))
-    }, [users, error])
+    }, [])
 
     return (
         <section>
